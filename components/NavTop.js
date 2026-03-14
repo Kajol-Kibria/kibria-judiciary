@@ -77,7 +77,7 @@ export default function NavTop() {
                 <div>
                     <Image src="/images/lawlogo.svg" alt="logo" width={30} height={30} />
                 </div>
-                <span className='font-semibold'>Kibria's Judiciary</span>
+                <span className='font-semibold'>Kibria&apos;s Judiciary</span>
             </Link>
             <div className=' w-1/3 hidden md:block'>
             <div onClick={() => setShowProfile(false)} className='flex justify-center 2xl:gap-8 items-center'>
