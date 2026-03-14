@@ -1,0 +1,40 @@
+// Sample data matching the screenshot
+export const sampleExpenses = [
+    {
+      id: 1,
+      title: 'Court Filing Fees',
+      amount: 5000,
+      date: 'May 04, 2025',
+      category: 'Court Fees',
+      caseId: 'CS/2023/123',
+      caseName: 'Sharma vs State',
+      paymentMethod: 'Cash',
+      hasReceipt: true,
+      icon: 'gavel',
+    },
+    {
+      id: 2,
+      title: 'Office Supplies',
+      amount: 2500,
+      date: 'Apr 29, 2025',
+      category: 'Office Supplies',
+      caseId: '',
+      caseName: '',
+      paymentMethod: 'Credit Card',
+      hasReceipt: true,
+      icon: 'box',
+    },
+    {
+      id: 3,
+      title: 'Travel to High Court',
+      amount: 1200,
+      date: 'May 06, 2025',
+      category: 'Travel',
+      caseId: 'CS/2023/167',
+      caseName: 'Patel vs Mehta',
+      paymentMethod: 'Debit Card',
+      hasReceipt: false,
+      icon: 'car',
+    },
+  ];
+  

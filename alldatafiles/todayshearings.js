@@ -1,0 +1,67 @@
+export const todaysHearings = [
+    {
+        case: "Smith vs Johnson",
+        court: "High Court",
+        room: "12",
+        time: "09:30",
+        date: "14/04/2025",
+        caseNumber: "CRL/123/2023",
+        caseTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        caseDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        client: "John Doe",
+        status: "Pending",
+
+    },
+    {
+        case: "Smith vs Johnson",
+        court: "High Court",
+        room: "12",
+        time: "09:30",
+        date: "14/04/2025",
+        caseNumber: "CRL/123/2023",
+        caseTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        caseDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        client: "John Doe",
+        status: "Pending",
+
+    },
+    {
+        case: "Smith vs Johnson",
+        court: "High Court",
+        room: "12",
+        time: "09:30",
+        date: "14/04/2025",
+        caseNumber: "CRL/123/2023",
+        caseTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        caseDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        client: "John Doe",
+        status: "Pending",
+
+    },
+    {
+        case: "Smith vs Johnson",
+        court: "High Court",
+        room: "12",
+        time: "09:30",
+        date: "14/04/2025",
+        caseNumber: "CRL/123/2023",
+        caseTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        caseDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        client: "John Doe",
+        status: "Pending",
+
+    },
+    {
+        case: "Smith vs Johnson",
+        court: "High Court",
+        room: "12",
+        time: "09:30",
+        date: "14/04/2025",
+        caseNumber: "CRL/123/2023",
+        caseTitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        caseDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        client: "John Doe",
+        status: "Pending",
+
+    },
+]
