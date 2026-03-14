@@ -1,0 +1,67 @@
+﻿node.exe : [3m[1m[34mΓëê[39m[22m[23m tailwindcss 
+[34mv4.2.1[39m
+At C:\Program Files\nodejs\npx.ps1:29 char:3
++   & $NODE_EXE $NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([3m[1m[34mΓë. 
+   ..[34mv4.2.1[39m:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[34mΓöé[39m Γå│ Upgrading from Tailwind CSS 
+[2m[34m`[39m[22m[34mv4.2.1[39m[2m[34m`[39m[22m 
+
+[34mΓöé[39m Searching for CSS files in the current 
+directory and its subdirectoriesΓÇª 
+
+[34mΓöé[39m Migrating stylesheetsΓÇª 
+
+[31mΓöé[39m Γå│ Cannot apply unknown utility class 
+`border-border`. Are you using CSS modules or similar and 
+missing `@reference`? https://tailwindcss.com/docs/functions-a
+nd-directives#reference-directive in [2m[34m`[39m[22m[34m
+.\src\app\globals.css[39m[2m[34m`[39m[22m 
+
+[32mΓöé[39m Γå│ Migrated stylesheet: [2m[34m`[39m[22m[3
+4m.\src\app\globals.css[39m[2m[34m`[39m[22m 
+
+[34mΓöé[39m Updating dependenciesΓÇª 
+
+[32mΓöé[39m Γå│ Updated package: 
+[2m[34m`[39m[22m[34mtailwindcss[39m[2m[34m`[39m[22m 
+
+[34mΓöé[39m Migrating templatesΓÇª 
+
+Error: Cannot apply unknown utility class `border-border`. 
+Are you using CSS modules or similar and missing 
+`@reference`? https://tailwindcss.com/docs/functions-and-direc
+tives#reference-directive
+    at onInvalidCandidate (file:///C:/Users/kajol/AppData/Loca
+l/npm-cache/_npx/001fd1a00a7ecb8d/node_modules/tailwindcss/dis
+t/chunk-L5IEUH3R.mjs:21:1314)
+    at $e (file:///C:/Users/kajol/AppData/Local/npm-cache/_npx
+/001fd1a00a7ecb8d/node_modules/tailwindcss/dist/chunk-L5IEUH3R
+.mjs:16:37066)
+    at file:///C:/Users/kajol/AppData/Local/npm-cache/_npx/001
+fd1a00a7ecb8d/node_modules/tailwindcss/dist/chunk-L5IEUH3R.mjs
+:21:355
+    at Ar (file:///C:/Users/kajol/AppData/Local/npm-cache/_npx
+/001fd1a00a7ecb8d/node_modules/tailwindcss/dist/chunk-L5IEUH3R
+.mjs:3:1733)
+    at I (file:///C:/Users/kajol/AppData/Local/npm-cache/_npx/
+001fd1a00a7ecb8d/node_modules/tailwindcss/dist/chunk-L5IEUH3R.
+mjs:3:1377)
+    at Ce (file:///C:/Users/kajol/AppData/Local/npm-cache/_npx
+/001fd1a00a7ecb8d/node_modules/tailwindcss/dist/chunk-L5IEUH3R
+.mjs:21:172)
+    at Gi (file:///C:/Users/kajol/AppData/Local/npm-cache/_npx
+/001fd1a00a7ecb8d/node_modules/tailwindcss/dist/chunk-L5IEUH3R
+.mjs:38:294)
+    at process.processTicksAndRejections 
+(node:internal/process/task_queues:105:5)
+    at async ao (file:///C:/Users/kajol/AppData/Local/npm-cach
+e/_npx/001fd1a00a7ecb8d/node_modules/tailwindcss/dist/chunk-L5
+IEUH3R.mjs:38:631)
+    at async su (file:///C:/Users/kajol/AppData/Local/npm-cach
+e/_npx/001fd1a00a7ecb8d/node_modules/@tailwindcss/node/dist/in
+dex.mjs:10:3390)

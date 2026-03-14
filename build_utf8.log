@@ -1,0 +1,97 @@
+﻿
+> advocate@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+node.exe : 
+At C:\Program Files\nodejs\npm.ps1:29 char:3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], 
+Remo    teException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+> Build error occurred
+Error: Turbopack build failed with 2 errors:
+./node_modules/react-big-calendar/lib/css/react-big-calendar.c
+ss
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` 
+directly as a PostCSS plugin. The PostCSS plugin has moved to 
+a separate package, so to continue using Tailwind CSS with 
+PostCSS you'll need to install `@tailwindcss/postcss` and 
+update your PostCSS configuration.
+    [at at (D:\all-projects\law\node_modules\tailwindcss\dist\
+lib.js:38:1643)]
+    at 
+turbopack:///[turbopack-node]/transforms/postcss.ts:56:14 [D:\
+all-projects\law\.next\build\chunks\[root-of-the-server]__6d51
+cb5d._.js:165:20]
+    [at <anonymous>]
+    at Module.init 
+(turbopack:///[turbopack-node]/transforms/postcss.ts:43:33) [D
+:\all-projects\law\.next\build\chunks\[root-of-the-server]__6d
+51cb5d._.js:155:35]
+    at run 
+(turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20) [D:\all-
+projects\law\.next\build\chunks\[root-of-the-server]__44695d76
+._.js:429:26]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/react-big-calendar/lib/css/react-big-calend
+ar.css [Client Component Browser]
+    ./components/calender/CalenderCantainer.js [Client 
+Component Browser]
+    ./components/calender/CalenderCantainer.js [Server 
+Component]
+    ./src/app/calender/page.js [Server Component]
+
+
+./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` 
+directly as a PostCSS plugin. The PostCSS plugin has moved to 
+a separate package, so to continue using Tailwind CSS with 
+PostCSS you'll need to install `@tailwindcss/postcss` and 
+update your PostCSS configuration.
+    [at at (D:\all-projects\law\node_modules\tailwindcss\dist\
+lib.js:38:1643)]
+    at 
+turbopack:///[turbopack-node]/transforms/postcss.ts:56:14 [D:\
+all-projects\law\.next\build\chunks\[root-of-the-server]__6d51
+cb5d._.js:165:20]
+    [at <anonymous>]
+    at Module.init 
+(turbopack:///[turbopack-node]/transforms/postcss.ts:43:33) [D
+:\all-projects\law\.next\build\chunks\[root-of-the-server]__6d
+51cb5d._.js:155:35]
+    at run 
+(turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20) [D:\all-
+projects\law\.next\build\chunks\[root-of-the-server]__44695d76
+._.js:429:26]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.js [Server Component]
+
+
+    at Module.init 
+(turbopack:///[turbopack-node]/transforms/postcss.ts:43:33) [D
+:\all-projects\law\.next\build\chunks\[root-of-the-server]__6d
+51cb5d._.js:155:35])
+    at run 
+(turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20) [D:\all-
+projects\law\.next\build\chunks\[root-of-the-server]__44695d76
+._.js:429:26])
+    at Module.init 
+(turbopack:///[turbopack-node]/transforms/postcss.ts:43:33) [D
+:\all-projects\law\.next\build\chunks\[root-of-the-server]__6d
+51cb5d._.js:155:35])
+    at run 
+(turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20) [D:\all-
+projects\law\.next\build\chunks\[root-of-the-server]__44695d76
+._.js:429:26])
